@@ -27,6 +27,11 @@ public class Jeroo extends JerooBase {
                 turn(LEFT);
                 return true;
             } else {
+                turn(LEFT);
+                turn(LEFT);
+                hop();
+                turn(LEFT);
+                turn(LEFT);
                 return false;
             }
         }else{
